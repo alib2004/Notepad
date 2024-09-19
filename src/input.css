@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+	font-family: iranyekan-bold;
+	font-style: normal;
+	font-weight: bold;
+	src:  url('./font/iranyekanwebbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+}
+@font-face {
+	font-family: iranyekan-regular;
+	font-style: normal;
+	font-weight: normal;
+	src: url('./font/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+}
+
+@font-face {
+	font-family: iranyekan-medium;
+	font-style: normal;
+	font-weight: 500;
+	src: url('./font/iranyekanwebmedium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+}
