@@ -1,0 +1,68 @@
+*,body{
+  font-family: vazir;
+}
+body{
+  width: 600px;
+  margin: auto;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.inputs input{
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: blue;
+}
+.inputs input::placeholder{
+  color: black;
+}
+.radioBtn:checked{
+  border: 3px solid black !important;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.box{
+  border: 1px solid ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-radius: 8px;
+}
+.addtodo{
+  cursor: pointer;
+}
+.flexBtns{
+  display: flex;
+  gap: 5px;
+}
+.donebtn{
+  background-color: gray;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+.trashbtn{
+  background-color: red;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+.todoText{
+  font-size: 20px;
+}
