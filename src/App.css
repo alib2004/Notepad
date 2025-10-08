@@ -32,6 +32,7 @@ body{
 }
 .grid{
   display: grid;
+  width: 100%;
   grid-template-columns: auto auto auto;
   gap: 10px;
 }
@@ -65,4 +66,18 @@ body{
 }
 .todoText{
   font-size: 20px;
+}
+.search-input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  width: 60%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+}
+.search-input:focus {
+  border-color: #555;
 }
